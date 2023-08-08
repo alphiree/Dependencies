@@ -77,6 +77,7 @@ from keras.metrics import Precision, Recall, BinaryAccuracy
 
 ## Callbacks
 from keras.callbacks import EarlyStopping
+from keras.callbacks import ReduceLROnPlateau
 from keras.callbacks import ModelCheckpoint
 
 
